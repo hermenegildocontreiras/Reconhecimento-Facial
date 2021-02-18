@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Video | Reconhecimento Facial com FaceAPI</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./../lib/bootstrap/css/bootstrap.css" />
+</head>
+
+<body>
+    <div>
+        <button name="registar" class="btn btn-primary" style="
+					display: flex;
+					margin: 0 auto;
+					position: absolute;
+					top: 10px;
+					right: 10px;
+				" value="" id="terminarSessao">
+				Terminar Sessão
+			</button>
+    </div>
+    <div>
+        <ul id="container" style="position: absolute; left: 10px; top: 10px">
+            <li class="tituloLista">
+                <h5>Lista de Usuários</h5>
+            </li>
+        </ul>
+    </div>
+    <video autoplay id="cam" width="720" height="560" muted></video>
+    <script src="./assets/lib/face-api/face-api.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

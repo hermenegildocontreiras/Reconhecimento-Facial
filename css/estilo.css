@@ -1,0 +1,116 @@
+.formCenter {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.formCenter p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.firstMenu {}
+
+.nomeUser {
+    width: 100%;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nomeUser a {
+    text-decoration: none;
+    color: white;
+}
+
+.vazio {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.bodyHv {
+    height: 100vh;
+}
+
+.bodyHv .container {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    border: 1px solid silver;
+    padding: 40px 0px 40px 0px;
+    width: 47%;
+}
+
+.loginLogo {
+    width: 13%;
+    align-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.buttonLogin {
+    display: flex;
+    margin: 18px auto;
+    height: 30px;
+    background: #A50000;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.firstMenu li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.firstMenu ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.firstMenu li a {
+    color: white;
+}
+
+.firstMenu li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo {
+    padding-top: 140px;
+}
+
+.selectTipoUsuario {
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.lineHeader {
+    height: 84px;
+}
+
+.corpoPadrao {
+    background-image: url("../../img/logo1.png");
+}
+
+.pagApresentacao {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 136px;
+    background: #A50000;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+}
